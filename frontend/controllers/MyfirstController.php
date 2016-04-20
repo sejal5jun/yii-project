@@ -11,7 +11,7 @@ class MyfirstController extends Controller
 	{
 		 $model = new Myfirst();
 		return $this->render('index',['model'=>$model]);
-		
+		sfdffgfg
 		
 	}
 
