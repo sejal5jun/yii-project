@@ -7,6 +7,14 @@ use \yii\db\ActiveRecord;
 
 class Myfirst extends ActiveRecord
 {
+	
+	
+	public static function tableName()
+	{
+		return 'tasks';
+	}
+	
+	
 	 public function rules()
 	 {
 		 return [
